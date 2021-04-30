@@ -14,7 +14,7 @@ from google.cloud import datastore, storage
 datastore_client = datastore.Client()
 storage_client = storage.Client()
 app = Flask(__name__)
-app.secret_key = "iqFfhY9FCUOJ8Z46DQLDe93mEMBln4W6" # probably more secure secret keys out there but it'll do for now.
+app.secret_key = ####
 # end-definitions
 
 # Class definitions
